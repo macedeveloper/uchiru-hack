@@ -4,7 +4,7 @@
 
 .right-answer {
     height: auto !important;
-    opacity: 100 !important;
+    opacity: 100% !important;
     background-color: #8f9 !important;
     border-radius: 10px;
     padding: 20px;

@@ -8,21 +8,21 @@
     <meta name="description" content="uchi.ru hack">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="icon" type="image/png" sizes="16x16" href="/uchiru/icon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/icon.png">
 
     <style>
         * {
             text-align: center;
         }
         h1 {
-            font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-family:'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', system-ui, -apple-system, sans-serif;
             color: #140b3a;
             font-size: 2em;
             margin-top: 10vh;
         }
         code {
             background-color: rgb(13, 20, 22); 
-            color: chartreuse;
+            color: #7fff00;
             font-size: 1.4em;
             
             display: block;
@@ -39,11 +39,12 @@
             max-height: 50vh;
         }
         a {
-            color: rgb(18, 61, 255);
+            color: rgb(78, 39, 255);
         }
-        ra {
+        r-a {
             background-color: #8f9;
             border-radius: 10px;
+            padding: 0px 8px;
         }
     </style>
 
@@ -62,13 +63,13 @@
         и выберите "Тест по ...",<br>
         затем нажмите "Решать сейчас"
     </h1>
-    <!--<img src="\uchiru\taskfromteacher.png">-->
+    <!--<img src="\taskfromteacher.png">-->
 
     <h1>
         2. Откройте инструменты разработчика в браузере,<br>
         Для этого нажмите (F12) или (Ctrl+Shift+I) на клавиатуре
     </h1>
-    <img src="\uchiru\console.png">
+    <img src="\console.png">
 
     <h1>
         3. В открытых "инструментах разработчика"<br>
@@ -83,28 +84,28 @@
         var link = document.createElement('link');
         link.rel = 'stylesheet';
         link.type = 'text/css';
-        link.href = 'https://macestudios.ru/uchiru/showanswers.css';
+        link.href = 'https://macestudios.ru/uchiru-hack/showanswers.css';
         var board = document.body;
         if (board) {
           board.appendChild(link);
-          console.log("Stylesheet applied! / Стиль применён!")
+          console.log("[🟩 uchiru-hack] Стиль применён!")
         }
         else {
-          console.log("Board not found! / Доска не найдена!")
+          console.log("[🟩 uchiru-hack] Доска не найдена!")
         }
     </code>
 
     <h1>
         5. Если всё получилось - фон страницы станет синим,<br>
-        а под заданиями появятся <ra>правильные ответы</ra>
+        а под заданиями появятся <r-a>правильные ответы</r-a>
     </h1>
 
     <h1>
-        6. Вам остаётся только ввести <ra>правильные ответы</ra> в поля для ввода ответов
+        6. Вам остаётся только ввести <r-a>правильные ответы</r-a> в поля для ввода ответов
     </h1>
 
     <h1 style="margin-bottom: 15vh;">
-        7. Если не сработало, либо в консоле вывело "Доска не найдена", напишите мне в личные сообщения
+        7. Если не сработало, (например в консоли вывело "Доска не найдена" или фон стал синим, но ответов нет) - напишите мне в личные сообщения @mace_dev
     </h1>
 
 </body>
